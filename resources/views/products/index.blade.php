@@ -18,6 +18,9 @@
         <div>
             <a href = "{{route('product.create')}}">Create a Product</a>
         </div>
+        <div>
+            <a href = "/dashboard">Dashboard</a>
+    </div>
         <table border = "2">
             <tr>
                 <th>ID</th>

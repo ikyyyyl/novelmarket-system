@@ -17,4 +17,8 @@ class Product extends Model
         'price',
         'quantity'
     ]; 
+
+    public function suppliers(){
+        return $this->hasMany(Supplier::class, 'prod_id');
+    }
 }
